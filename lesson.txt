@@ -1,1 +1,7 @@
 I am learning about Git branches 
+git checkout -b <branch name>: creates a new branch
+git switch -c <branch name>: creates a new branch
+git branch : lists all local branches 
+git branch <branch name> : creates a new branch but doesn't switch to it automatically
+git branch -d <branch name> : used to delete a branch after you have succesfully merged its changes into the main code 
+git branch -a : This shows branches on your machine as well as branches stored on GitHub or GitLab.
